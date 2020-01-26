@@ -1,5 +1,5 @@
 console.log("all ok")
-punkt2_2_2()
+punkt2_2_3()
 
 function punkt2_2_2() {
   //разница в сравнении
@@ -33,7 +33,7 @@ function punkt2_2_1() {
 	console.log(s.trim())
 }
 
-function punkt2_2_2() {
+function punkt2_2_3() {
   //Math
   console.log(Math.pow(2, 4))
   console.log(Math.pow(2, -3))
@@ -47,4 +47,24 @@ function punkt2_2_2() {
   console.log(Math.sign(-3))
   console.log(Math.sign(0))
   console.log(Math.sign(34))
+}
+
+function punkt2_2_3() {
+    let array = [1,2,3,4,5]
+    let b = array.map(function(x){
+     return 2 * x;
+    });
+    console.log(b)
+
+    let copy =[];
+    array.forEach(function(x){
+     copy.unshift(x);
+    });
+    console.log(copy)
+
+  let c = array.filter(function(x){
+  	return x % 2 ==1;
+  });
+  console.log(c)
+  
 }
