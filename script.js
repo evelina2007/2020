@@ -1,7 +1,7 @@
 console.log("all ok")
-punkt2_2()
+punkt2_2_2()
 
-function punkt2_1() {
+function punkt2_2_2() {
   //разница в сравнении
   let d = {key: "value"};
   let e = {key: "value"} === d;	 //нестрогое сравнение
@@ -13,7 +13,7 @@ function punkt2_1() {
   console.log(c);
 }
 
-function punkt2_2() {
+function punkt2_2_1() {
 	//экранирование
 	console.log("кино \"аватар\" \n \\n перевод строки");
 	//функции строк
@@ -31,4 +31,20 @@ function punkt2_2() {
 	console.log(s.toLowerCase())
 	console.log(s.toUpperCase())
 	console.log(s.trim())
+}
+
+function punkt2_2_2() {
+  //Math
+  console.log(Math.pow(2, 4))
+  console.log(Math.pow(2, -3))
+  console.log(Math.sqrt(9))
+  console.log(Math.ceil(1.25))
+  console.log(Math.floor(1.25))
+  console.log(Math.round(1.25))
+  console.log(Math.round(1.75))
+  console.log(Math.max(1,2,3,4,246,23,6))
+  console.log(Math.min(12,45,1365,427,346,2435))
+  console.log(Math.sign(-3))
+  console.log(Math.sign(0))
+  console.log(Math.sign(34))
 }
